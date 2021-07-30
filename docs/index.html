@@ -45,8 +45,18 @@
           </p>
           <a class="article_link link-1">Learn more<div></div></a>
       </article>
-      <div class="article-image"><img id="transform-image"></div>
-      <div class="article-image"><img id="stand-out-image"></div>
+      <div id="transform-image" class="article-image">
+        <picture>
+          <source media="(min-width:900px)" srcset="images/desktop/image-transform.jpg">
+          <img src="images/mobile/image-transform.jpg">
+        </picture>
+      </div>
+      <div id="stand-out-image" class="article-image">
+        <picture>
+          <source media="(min-width:900px)" srcset="images/desktop/image-stand-out.jpg">
+          <img src="images/mobile/image-stand-out.jpg">
+        </picture>
+      </div>
       <article class="article-text">
           <h2>Stand out to the right audience</h2>
           <p>
@@ -56,7 +66,10 @@
       </article>
       <article class="merged-article">
           <div>
-          <img id="graphic-design-image">
+            <picture>
+              <source media="(min-width:900px)" srcset="images/desktop/image-graphic-design.jpg">
+              <img id="graphic-design-image" src="images/mobile/image-graphic-design.jpg">
+            </picture>
           </div>
           <div class="merged-article_content">
             <h2>Graphic design</h2>
@@ -65,7 +78,10 @@
       </article>
       <article class="merged-article">
         <div>
-          <img id="photography-image">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/desktop/image-photography.jpg">
+            <img src="images/mobile/image-photography.jpg">
+          </picture>
         </div>
         <div class="merged-article_content">
           <h2>Photography</h2>
@@ -106,10 +122,30 @@
     </section>
     <footer>
       <div class="reel-container">
-        <div class="reel-image_container"><img id="milkbottles"></div>
-        <div class="reel-image_container"><img id="orange"></div>
-        <div class="reel-image_container"><img id="cone"></div>
-        <div class="reel-image_container"><img id="sugarcubes"></div>
+        <div class="reel-image_container">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/desktop/image-gallery-milkbottles.jpg">
+            <img src="images/mobile/image-gallery-milkbottles.jpg">
+          </picture>
+        </div>
+        <div class="reel-image_container">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/desktop/image-gallery-orange.jpg">
+            <img src="images/mobile/image-gallery-orange.jpg">
+          </picture>
+        </div>
+        <div class="reel-image_container">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/desktop/image-gallery-cone.jpg">
+            <img src="images/mobile/image-gallery-cone.jpg">
+          </picture>
+        </div>
+        <div class="reel-image_container">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/desktop/image-gallery-sugarcubes.jpg">
+            <img src="images/mobile/image-gallery-sugar-cubes.jpg">
+          </picture>
+        </div>
       </div>
       <div class="footer-info">
         <div class="footer_logo">
