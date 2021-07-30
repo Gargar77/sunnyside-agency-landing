@@ -12,11 +12,8 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![./screenshots/desktop.png](./screenshot.jpg)
+![desktop view](/screenshots/desktop.png)
 
 ### Links
 
 - Live Site URL: [https://gargar77.github.io/sunnyside-agency-landing/]
-
+## My Process
 ### Built with
 - Semantic HTML5 markup
 - CSS custom properties
