@@ -47,7 +47,7 @@ header {
 .main-section {
     width: 100%;
     background-position-y: top;
-    background-image: url('./images/desktop/image-header.jpg');
+    background-image: url('../images/desktop/image-header.jpg');
     background-repeat: no-repeat;
     height: 56.6vh;
     padding-top: 10vh;
@@ -245,16 +245,16 @@ section h2 {
     width: 100%;
 }
 #milkbottles {
-    content: url("/images/desktop/image-gallery-milkbottles.jpg");
+    content: url("../images/desktop/image-gallery-milkbottles.jpg");
 }
 #orange {
-    content: url("/images/desktop/image-gallery-orange.jpg");
+    content: url("../images/desktop/image-gallery-orange.jpg");
 }
 #cone{
-    content: url("/images/desktop/image-gallery-cone.jpg");
+    content: url("../images/desktop/image-gallery-cone.jpg");
 }
 #sugarcubes{
-    content: url("/images/desktop/image-gallery-sugarcubes.jpg");
+    content: url("../images/desktop/image-gallery-sugarcubes.jpg");
 }
 .footer-info {
     background-color: #90D4C6;
@@ -340,7 +340,7 @@ section h2 {
     }
 
     .main-section {
-        background-image: url('/images/mobile/image-header.jpg');
+        background-image: url('../images/mobile/image-header.jpg');
         background-size: cover;
         height: 70vh;
     }
@@ -382,16 +382,16 @@ section h2 {
         font-size: 28px;
     }
     #transform-image {
-        content: url("/images/mobile/image-transform.jpg");
+        content: url("../images/mobile/image-transform.jpg");
     }
     #stand-out-image {
-        content: url("/images/mobile/image-stand-out.jpg");
+        content: url("../images/mobile/image-stand-out.jpg");
     }
     #graphic-design-image {
-        content: url("/images/mobile/image-graphic-design.jpg");
+        content: url("../images/mobile/image-graphic-design.jpg");
     }
     #photography-image {
-        content: url("images/mobile/image-photography.jpg");
+        content: url("../images/mobile/image-photography.jpg");
     }
     .testimonials {display: block;}
     .testimonial-title {font-size: 16px;}
@@ -403,16 +403,16 @@ section h2 {
     }
 
     #milkbottles {
-        content: url("/images/mobile/image-gallery-milkbottles.jpg");
+        content: url("../images/mobile/image-gallery-milkbottles.jpg");
     }
     #orange {
-        content: url("/images/mobile/image-gallery-orange.jpg");
+        content: url("../images/mobile/image-gallery-orange.jpg");
     }
     #cone{
-        content: url("/images/mobile/image-gallery-cone.jpg");
+        content: url("../images/mobile/image-gallery-cone.jpg");
     }
     #sugarcubes{
-        content: url("/images/mobile/image-gallery-sugar-cubes.jpg");
+        content: url("../images/mobile/image-gallery-sugar-cubes.jpg");
     }
     .footer-info {
         padding: 5%;
