@@ -311,6 +311,7 @@ section h2 {
         background-color: #FBD600;
         width: 40%;
         height: fit-content;
+        height: -moz-fit-content;
         text-align: center;
         padding: 20px;
     }
