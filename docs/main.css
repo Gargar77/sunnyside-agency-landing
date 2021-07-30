@@ -340,7 +340,7 @@ section h2 {
     }
 
     .main-section {
-        background-image: url('images/mobile/image-header.jpg');
+        background-image: url('/images/mobile/image-header.jpg');
         background-size: cover;
         height: 70vh;
     }
@@ -382,16 +382,16 @@ section h2 {
         font-size: 28px;
     }
     #transform-image {
-        content: url("images/mobile/image-transform.jpg");
+        content: url("/images/mobile/image-transform.jpg");
     }
     #stand-out-image {
-        content: url("images/mobile/image-stand-out.jpg");
+        content: url("/images/mobile/image-stand-out.jpg");
     }
     #graphic-design-image {
-        content: url("images/mobile/image-graphic-design.jpg");
+        content: url("/images/mobile/image-graphic-design.jpg");
     }
     #photography-image {
-        content: url("images/mobile/image-photography.jpg");
+        content: url("/images/mobile/image-photography.jpg");
     }
     .testimonials {display: block;}
     .testimonial-title {font-size: 16px;}
